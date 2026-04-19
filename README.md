@@ -1,13 +1,21 @@
 # 🚀 HelpDesk Fullstack
 
-Sistema de chamados com autenticação e dashboard.
+Sistema de gerenciamento de chamados estilo SaaS.
 
-## 🧠 Stack
+## 🧠 Tecnologias
 
 * Node.js + Express
 * SQLite
-* React + Vite
+* React (Vite)
 * Tailwind CSS
+
+## 🔐 Funcionalidades
+
+* Login com JWT
+* CRUD de chamados
+* Filtro por status
+* Dashboard moderno
+* Contador de tickets
 
 ## ▶️ Como rodar
 
@@ -15,6 +23,7 @@ Sistema de chamados com autenticação e dashboard.
 
 cd backend
 npm install
+node src/database/init.js
 npm run dev
 
 ### Frontend
@@ -22,10 +31,4 @@ npm run dev
 cd frontend
 npm install
 npm run dev
-
-## 🔐 Funcionalidades
-
-* Login com JWT
-* CRUD de chamados
-* Filtro por status
 
